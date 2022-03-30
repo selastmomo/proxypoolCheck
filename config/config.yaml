@@ -1,5 +1,5 @@
 # proxypool remote server url. Blank for http://127.0.0.1:8080
-server_url: https://example.proxypoolserver.com
+server_url: https://free.zdl.im/clash/proxies?type=trojan,vmess,ssr
 # server_url: https://example.proxypoolserver.com/clash/proxies?type=vmess
 
 
