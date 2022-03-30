@@ -4,16 +4,16 @@ server_url: https://free.zdl.im/clash/proxies?type=trojan,vmess,ssr
 
 
 # For your local server
-request: http   # http / https
-domain:         # default: 127.0.0.1
+request: https   # http / https
+domain: wf168.netlify.app        # default: 127.0.0.1
 port:           # default: 80
 
-cron_interval: 15       # default: 15  minutes
+cron_interval: 60       # default: 15  minutes
 show_remote_speed: true # default false
 
 healthcheck_timeout:    # default 5
-healthcheck_connection: # default 100
+healthcheck_connection: 300 # default 100
 
-speedtest:              # default false
-speed_connection:       # default 5
-speed_timeout:          # default 10
+speedtest: true             # default false
+speed_connection: 10      # default 5
+speed_timeout: 3         # default 10
